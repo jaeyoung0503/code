@@ -49,7 +49,7 @@ def process_coins():
 def is_transaction_successful(money_received, drink_cost):
   if money_received >= drink_cost:
     change = round(money_received - drink_cost, 2)
-    print(f"here is ${change} in change")
+    print(f"here is ${change} in change, Enjoy")
     global profit
     profit += drink_cost
     return True
